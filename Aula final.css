@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Qatar';
+    src: url('Qatar2022Arabic-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    font-family: 'Qatar';
+}
+.inicio, .dados, .atributos, .titulos{
+    height: 969px;
+    width: 100%;
+    background-color:rgb(247, 247, 247);
+}
+.start{
+    float: right;
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+h1{
+    font-weight: bold;
+    color: rgb(234, 236, 90);
+    font-size: 100px;
+}
+h3{
+    font-size: 40px;
+    color: rgb(138, 138, 138);
+}
+.neymar{
+    position: absolute;
+    left: 50%;
+    height: 969px;
+    width: 529px;
+    filter: grayscale();
+}
+.dez{
+    position:relative;
+    left: 50%;
+    font-size: 600px;
+    color: rgb(234, 236, 90);
+    width: 600px;
+}
+.dados{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.clube{
+    width: 40px;
+    height: 40px;
+}
+th{
+    font-size: 70px;
+    color: rgb(234, 236, 90);
+}
+.normal, .norm{
+    color: rgb(93, 93, 93);
+    font-size: 25px;
+}
+.neg, .negrito{
+    color: rgb(71, 71, 71);
+}
+.ney{
+    margin-top: 284px;
+    width: 900px;
+    height: 685px;
+}
+.dado, .carreira{
+    font-size: 30px;
+}
+.carreira{
+    text-align: center;
+}
+.dad, .carreira, .neg, .norm, .time{
+    border-bottom: 2px solid rgb(234, 236, 90);
+    border-collapse: collapse;
+}
+.nj{
+    height: 950px;
+    width: 756px;
+}
+.atributos{
+    display: flex;
+    align-items: flex-end;
+}
+iframe{
+    font-family: 'Qatar';
+}
+.ny{
+    width: 1500px;
+    height: 843px;
+    margin-top: 126px;
+}
+.titulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
